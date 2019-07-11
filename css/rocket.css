@@ -8,7 +8,7 @@
 }
 
 .right{
-	background-color: aliceblue;
+	background-color: white;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -28,10 +28,11 @@
 .rocket{
 	position: absolute;
 	left: 50%;
-	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: blue;
+	bottom: 7px;
+	width: 200px;
+	height: 200px;
+	margin-left: -100px;
+	background: url('../img/firstrocket.png');
 	transition: bottom 10000ms;
 }
 
@@ -54,6 +55,14 @@ body.body-state2 .state2{display: block;}
 body.body-state3 .state3{display: block;}
 body.body-state4 .state4{display: block;}
 body.body-state5 .state5{display: block;}
+
+body.body-state5 .rocket{
+	background: url('../img/explosion.png');
+	transition: bottom 5000ms;
+	bottom: 20px;
+	padding-bottom: -50px;
+	height: 175px;
+}
 
 a{
 
