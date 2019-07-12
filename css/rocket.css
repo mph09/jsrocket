@@ -32,7 +32,7 @@
 	width: 200px;
 	height: 200px;
 	margin-left: -100px;
-	background: url('../img/firstrocket.png');
+	background: url('../img/firstrocket.png') no-repeat 0 0;
 	transition: bottom 10000ms;
 }
 
@@ -57,17 +57,22 @@ body.body-state4 .state4{display: block;}
 body.body-state5 .state5{display: block;}
 
 body.body-state5 .rocket{
-	background: url('../img/explosion.png');
+	background-image: url('../img/explosion.png');
 	transition: bottom 5000ms;
 	bottom: 20px;
 	padding-bottom: -50px;
 	height: 175px;
 }
 
-a{
-
+h1{
+	text-align: center;
+	color: red;
+	padding-top: 150px;
+	font-size: 40px;
+	text-shadow: 2px 2px 1px black;
+	font-family: cursive;
 }
 
-.abutton{
-
+.button{
+	text-align: center
 }
